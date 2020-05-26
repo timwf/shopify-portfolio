@@ -5,6 +5,8 @@ import SectionBreak from '../components/SectionBreak'
 import ServicesSection from '../components/SevicesSection'
 import Navbar from '../components/Navbar'
 import WorkSection from '../components/WorkSection'
+import ReviewsSection from '../components/ReviewsSection'
+import Footer from '../components/Footer.jsx'
 
 
 
@@ -27,6 +29,8 @@ const Index = () => (
     <SectionBreak name="Work"/>
     <WorkSection />
     <SectionBreak name="Reviews"/>
+    <ReviewsSection />
+    <Footer />
     </>
 );
 

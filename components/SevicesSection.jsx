@@ -10,7 +10,7 @@ const ServicesSection = () => {
     
 
     const animatedStyle = useSpring({
-        transform:  inview ? 'translate(0px, 0px)' : 'translate(0px, 100px)',
+        transform:  inview ? 'translate(0px, 0px)' : 'translate(0px, 175px)',
         delay: 0
       });
 
