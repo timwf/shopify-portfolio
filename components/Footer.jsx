@@ -1,4 +1,5 @@
 import Layout from "./Layout"
+import Link from 'next/link'
 
 const Footer = () => {
 
@@ -12,11 +13,10 @@ const Footer = () => {
                 <img src="/big-envelope.png" alt=""/>                 
                 </div>
                 <div className="footer-second footer-section"> 
-                <h2>home</h2>
-                <h2>portfolio</h2>                   
-                <h2>services</h2>
-                <h2>blog</h2>
-                <h2>contact</h2>
+                <Link href="/"><h2>home</h2></Link>
+                <Link href="/portfolio"><h2>portfolio</h2></Link>                
+                <Link href="/services"><h2>services</h2></Link>
+                <Link href="/contact"><h2>contact</h2></Link>
                 </div>
                 <div className="footer-third footer-section">
                 <p>terms and conditions</p>   

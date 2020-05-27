@@ -18,8 +18,8 @@ const Furbabies = (props) => {
             </Layout>
             <PortfolioSection 
                 image="/furbabies-gif.gif"
-                title="Furbabies"
-                titleLogo="/nordic-logo-port.png"
+                title=""
+                titleLogo="/furbabies-black.png"
                 content="Kates Furbabies are a dog walking service. I designed and built this minimal modern web app from scrath"
                 theme="N/A"
                 tasks={["Bespoke UX/UI full design", "Mobile Responsive design", "PHP Contact Page", "SEO optimised", "Social Media Intergration"]}

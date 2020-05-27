@@ -18,8 +18,8 @@ const PrimitiveTrible = (props) => {
             </Layout>
             <PortfolioSection 
                 image="/primitive-gif.gif"
-                title="Primitive Tribal Craft"
-                titleLogo="/nordic-logo-port.png"
+                title=""
+                titleLogo="/primitive-black.png"
                 content="Primitive Tribal Craft are a bohemian clothes retailer.  I have been working with them on various task throught the past year." 
                 theme="Alpha Icon"
                 tasks={["Bespoke design and build Contact Us page", "Speed Optimisation (38% improvement)", "Bespoke Announcement Bar", "Image Optimisation", "Mailchimp Intergration and setup"]}

@@ -1,5 +1,6 @@
 import AnimatedHeroContent from "./AnimatedHeroContent";
 import { useSpring, animated } from "react-spring";
+import Link from 'next/link'
 
 
 
@@ -46,10 +47,10 @@ const HeroSection = () => {
 
         </div>
         <div className="hero-social">
-            <img src="/github-grey.png" alt=""/>
-            <img src="/linkedin-grey.png" alt=""/>
-            <img src="/twitter-grey.png" alt=""/>
-            <img src="/codepen-grey.png" alt=""/>
+        <a href="https://github.com/timwf"><img src="/github-grey.png" alt=""/></a>
+        <a href="https://www.linkedin.com/in/timothy-williams-fowler-6a04a9176/"><img src="/linkedin-grey.png" alt=""/></a>
+        <img src="/twitter-grey.png" alt=""/>
+        <a href="https://codepen.io/timwf"><img src="/codepen-grey.png" alt=""/></a> 
 
         </div>
 

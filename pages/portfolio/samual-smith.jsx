@@ -18,8 +18,8 @@ const SamualSmith = (props) => {
             </Layout>
             <PortfolioSection 
                 image="/sam-gif.gif"
-                title="Samual Smith"
-                titleLogo="/nordic-logo-port.png"
+                title=""
+                titleLogo="/sam-black.png"
                 content="Samual Smith wanted to stand out with something special - I designed and built this unique Landing Page paired with Hero anaimation and Shopify Admin customisable sections"
                 theme="Customised Debut Theme"
                 tasks={["Bespoke design and build Landing Page", "Shopify Admin editable sections", "Unique animated design and build Hero Section", "Logo re-design", "Bespoke Product Slider"]}

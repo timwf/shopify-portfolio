@@ -55,12 +55,7 @@ const Navbar = () => {
                         <p>portfolio</p>
                     </div>
                 </Link>
-                <Link href="/blog">
-                    <div className="nav-item-container" style={{paddingRight: "35px"}}>
-                        <img style={{}} src="/blog-logo.png"></img>
-                        <p>blog</p>
-                    </div>
-                </Link>            
+        
                 <p className="nav-contact"><Link href="/portfolio"><a>Contact Me</a></Link></p>            
             </div> 
         </div> 
