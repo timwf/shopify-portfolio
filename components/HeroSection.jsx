@@ -9,12 +9,12 @@ const HeroSection = () => {
     const animatedStyle = useSpring({
         from: {opacity: 0}, 
         to: {opacity: 1}, 
-        delay: 1000
+        delay: 700
       });
       const animatedStyleTwo = useSpring({
         from: {opacity: 0}, 
         to: {opacity: 1}, 
-        delay: 1400
+        delay: 1000
       });
 
       const photoSlideIn = useSpring({

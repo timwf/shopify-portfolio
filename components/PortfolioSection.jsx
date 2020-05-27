@@ -21,22 +21,16 @@ const PortfolioSection = (props) => {
                     <p><strong>Theme:  </strong>{props.theme}</p>
                 </div>
                 <div className="portfolio-section-tick-container">
-                    <div className="portfolio-section-tick-content" >
+
+                {props.tasks.map((task) => {
+                       return(
+                        <div className="portfolio-section-tick-content" >
                         <img src="/green-tick.png" alt=""/>
-                        <p>{props.tasks}</p>
-                    </div>
-                    <div className="portfolio-section-tick-content" >
-                        <img src="/green-tick.png" alt=""/>
-                        <p>Bespoke Product pages</p>
-                    </div>
-                    <div className="portfolio-section-tick-content" >
-                        <img src="/green-tick.png" alt=""/>
-                        <p>Bespoke Product pages</p>
-                    </div>
-                    <div className="portfolio-section-tick-content" >
-                        <img src="/green-tick.png" alt=""/>
-                        <p>Bespoke Product pages</p>
-                    </div>
+                        <p>{task}</p>
+                         </div>
+                    )
+                })}
+
                 </div>
             </div>
             </div>

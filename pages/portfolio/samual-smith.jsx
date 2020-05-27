@@ -17,12 +17,12 @@ const SamualSmith = (props) => {
             </div>
             </Layout>
             <PortfolioSection 
-                image="/samsmith-cover.png"
+                image="/sam-gif.gif"
                 title="Samual Smith"
                 titleLogo="/nordic-logo-port.png"
-                content="Nordic Furniture Design wanted a sleek new collection page layout and bespoke Mega Menu. They are using the free Debut theme and wanted an upgrade. We were able to implement a custom built mega menu and collection page without upgrading saving loading times and allowing for a real custom proffesional feel."
+                content="Samual Smith wanted to stand out with something special - I designed and built this unique Landing Page paired with Hero anaimation and Shopify Admin customisable sections"
                 theme="Customised Debut Theme"
-                tasks="Bespoke Product pages"
+                tasks={["Bespoke design and build Landing Page", "Shopify Admin editable sections", "Unique animated design and build Hero Section", "Logo re-design", "Bespoke Product Slider"]}
            />
            <Footer />
         </>

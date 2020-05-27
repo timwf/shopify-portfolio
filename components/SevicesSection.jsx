@@ -6,9 +6,6 @@ import { useSpring, animated } from "react-spring";
 
 const ServicesSection = () => {
     const [inview, setInview] = useState(false)
-    console.log(inview);
-    
-
     const animatedStyle = useSpring({
         transform:  inview ? 'translate(0px, 0px)' : 'translate(0px, 175px)',
         delay: 0

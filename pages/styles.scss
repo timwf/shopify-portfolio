@@ -445,6 +445,7 @@ background-color: #F5F5F5;
   width: 100%;
   flex-wrap: wrap;
   .work-section-indi{
+    transform: scale(0.95);
     width: 50%;
     margin-bottom: -4px;
     position: relative;
@@ -713,7 +714,7 @@ background-color: #F5F5F5;
 
 @media only screen and (max-width: 1000px)  {
   .layout-wrapper {
-    margin: 0px 5px;
+    margin: 0px 0px;
 }
 
 .hero-image-container{
@@ -783,14 +784,18 @@ display: none;
 
   .service-card {
     width: 100%;
-    margin-bottom: 20px;
+    margin: 0px 20px 20px 20px;
   }
   .service-section-container {
     flex-wrap: wrap;
  
   }
 
-
+  .breadcrumbs img {
+    height: 20px;
+    margin-top: -2px;
+    padding-left: 20px;
+}
 
   .work-section-indi {
     width: 100% !important;
@@ -799,8 +804,26 @@ display: none;
 
   .reviews-card-container {
     width: 100%;
-    margin-bottom: 5px;
+    margin: 0px 20px 13px 20px;
   }
+
+  .portfolio-section-container{
+    display: block;
+    .portfolio-section-image-container {
+      width: 100%;
+    }
+    .portfolio-section-content-container {
+      width: 88%;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .portfolio-section-tick-container {
+    margin: 23px 0px 0px 11px;
+  }
+  }
+
+
+
 
   .footer-container {
     flex-wrap: wrap;
