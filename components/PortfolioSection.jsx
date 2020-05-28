@@ -9,7 +9,7 @@ const PortfolioSection = (props) => {
             <div className="portfolio-section-image-container">
                 <Img
                     src={props.image}
-                    loader={<img src="/image-loader.gif" />}
+                    loader={<img src="/image-loader.gif"/>}
                 />
                 
             </div>
