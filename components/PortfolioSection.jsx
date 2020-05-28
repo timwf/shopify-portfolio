@@ -1,4 +1,5 @@
 import Layout from "./Layout"
+import {Img} from 'react-image'
 
 const PortfolioSection = (props) => {
 
@@ -6,7 +7,11 @@ const PortfolioSection = (props) => {
         <Layout>
             <div className="portfolio-section-container">
             <div className="portfolio-section-image-container">
-                <img src={props.image} alt=""/>
+                <Img
+                    src={props.image}
+                    loader={<img src="/image-gif.gif" />}
+                />
+                
             </div>
             <div className="portfolio-section-content-container">
                 <div className="portfolio-section-header">
