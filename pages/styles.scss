@@ -694,7 +694,7 @@ background-color: #F5F5F5;
   z-index: 9;
   left: 10vw;
   top: 63px;
-  transition: 1s;
+  transition: 0.5s;
   margin-top: -100vh;
   background-color:  #2C2C2C;
   h1{
@@ -703,7 +703,7 @@ background-color: #F5F5F5;
 }
 
 .active-contact-container{
-  transition: 1s;
+  transition: 0.5s;
   margin-top: 0%;
 }
 .mob-contact-inner{
@@ -717,6 +717,7 @@ background-color: #F5F5F5;
 .mob-contact-contact{
   font-size: 59px;
   margin: 0;
+  margin-top: 21px;
 }
 .mob-contact-me{
   font-size: 195px;
@@ -739,6 +740,44 @@ background-color: #F5F5F5;
   img{
     padding: 8px;
   }
+}
+
+//foooter popup
+.pop-up-contact-container-footer{
+  position: absolute;
+  
+  width: 80vw;
+  background-color: white;
+  z-index: 9;
+  left: 10vw;
+  top: 63px;
+  transition: 0.5s;
+  margin-bottom: -100vh;
+  background-color:  #2C2C2C;
+  h1{
+    color: white;
+  }
+}
+
+.active-contact-container-footer{
+  transition: 0.5s;
+  
+}
+
+.pop-up-contact-wrapper-footer{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0000009e;
+  z-index: 9999;
+  position: fixed;
+  margin-top: -100vh;
+}
+
+.active-contact-wrapper-footer{
+  
+  margin-top: 0; 
+  top: 0;
 }
 
 

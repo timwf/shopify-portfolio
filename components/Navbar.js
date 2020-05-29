@@ -58,10 +58,31 @@ const Navbar = () => {
                     </div>
                 </Link>
         
-                <p className="nav-contact"><Link href="/portfolio"><a>Contact Me</a></Link></p>            
+                <p onClick={() => setContactOpen(true)} className="nav-contact"><a>Contact Me</a></p>            
             </div> 
         </div> 
+        <div onClick={() => setContactOpen(false)} 
+    className={contactOpen ? "active-contact-wrapper pop-up-contact-wrapper" : "pop-up-contact-wrapper"}
+    >
+        <div className={contactOpen ? "active-contact-container pop-up-contact-container" : "pop-up-contact-container"}>
+        <div className="mob-contact-inner">
+            <h1 className="mob-contact-contact">CONTACT</h1>
+            <h1 className="mob-contact-me">ME</h1>
+            <h1 className="mob-contact-now">NOW</h1>
+            <div className="mob-contact-icons">
+                <img src="/contact-mail.png"/>
+                <img src="/contact-whatsapp.png"/>
+                <img src="/contact-messenger.png"/>
+                <img src="/contact-skype.png"/>
+                <a href="https://www.linkedin.com/in/timothy-williams-fowler-6a04a9176/" ><img src="/contact-linkedin.png"/></a>
+                <img src="/contact-github.png"/>
+                <img src="/contact-phone.png"/>
+                <img src="/contact-twitter.png"/>
 
+            </div>
+        </div>
+        </div>
+    </div>
 
         </>
         )
@@ -107,7 +128,7 @@ const Navbar = () => {
                 <img src="/contact-whatsapp.png"/>
                 <img src="/contact-messenger.png"/>
                 <img src="/contact-skype.png"/>
-                <img src="/contact-linkedin.png"/>
+                <a href="https://www.linkedin.com/in/timothy-williams-fowler-6a04a9176/" ><img src="/contact-linkedin.png"/></a>
                 <img src="/contact-github.png"/>
                 <img src="/contact-phone.png"/>
                 <img src="/contact-twitter.png"/>
