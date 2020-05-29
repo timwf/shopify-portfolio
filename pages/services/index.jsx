@@ -20,7 +20,7 @@ const ServicesPage = () => {
             <ServicesSection />
             <div className="nav-margin-top"></div>
         </Layout>
-
+        <WorkSection />
         <Footer />
         </>
     )

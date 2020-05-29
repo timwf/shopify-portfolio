@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Navbar from "../../components/Navbar"
 import PortfolioSection from "../../components/PortfolioSection"
 import Layout from '../../components/Layout'
+import WorkSection from '../../components/WorkSection'
 import Footer from '../../components/Footer.jsx'
 
 const PrimitiveTrible = (props) => {
@@ -24,6 +25,7 @@ const PrimitiveTrible = (props) => {
                 theme="Alpha Icon"
                 tasks={["Bespoke design and build Contact Us page", "Speed Optimisation (38% improvement)", "Bespoke Announcement Bar", "Image Optimisation", "Mailchimp Intergration and setup"]}
            />
+           <WorkSection />
            <Footer />
         </>
     )

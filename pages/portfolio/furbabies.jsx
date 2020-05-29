@@ -3,6 +3,9 @@ import Navbar from "../../components/Navbar"
 import PortfolioSection from "../../components/PortfolioSection"
 import Layout from '../../components/Layout'
 import Footer from '../../components/Footer.jsx'
+import WorkSection from '../../components/WorkSection'
+
+
 
 const Furbabies = (props) => {
     return(
@@ -24,6 +27,7 @@ const Furbabies = (props) => {
                 theme="N/A"
                 tasks={["Bespoke UX/UI full design", "Mobile Responsive design", "PHP Contact Page", "SEO optimised", "Social Media Intergration"]}
            />
+           <WorkSection />
            <Footer />
         </>
     )

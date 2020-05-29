@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar"
 import PortfolioSection from "../../components/PortfolioSection"
 import Layout from '../../components/Layout'
 import Footer from '../../components/Footer.jsx'
+import WorkSection from '../../components/WorkSection'
 
 const NordicFurnitureDesign = (props) => {
     return(
@@ -24,6 +25,7 @@ const NordicFurnitureDesign = (props) => {
                 theme="Customised Debut Theme"
                 tasks={[,"Bespoke design and build Collection Pages", "Bespoke design and build Mega Menu", "Bespoke design and build Mobile Navigation", "Logo design", "Bespoke design and build Banner", "Image Optimisation", "Mailchimp Intergration and setup"]}
            />
+           <WorkSection />
            <Footer />
         </>
     )

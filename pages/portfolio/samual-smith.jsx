@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar"
 import PortfolioSection from "../../components/PortfolioSection"
 import Layout from '../../components/Layout'
 import Footer from '../../components/Footer.jsx'
+import WorkSection from '../../components/WorkSection'
 
 const SamualSmith = (props) => {
     return(
@@ -24,6 +25,7 @@ const SamualSmith = (props) => {
                 theme="Customised Debut Theme"
                 tasks={["Bespoke design and build Landing Page", "Shopify Admin editable sections", "Unique animated design and build Hero Section", "Logo re-design", "Bespoke Product Slider"]}
            />
+           <WorkSection />
            <Footer />
         </>
     )

@@ -9,9 +9,7 @@ const ServicesCard = (props) => {
             <div className="service-card-content">
                 <p>{props.content}</p>
             </div>
-            <div className="service-card-button">
-                <p>Find Our More</p>
-            </div>
+
         </div>
     )
 
