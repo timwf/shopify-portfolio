@@ -21,7 +21,7 @@ const PrimitiveTrible = (props) => {
                 image="/primitive-gif.gif"
                 title=""
                 titleLogo="/primitive-black.png"
-                content="Primitive Tribal Craft are a bohemian clothes retailer.  I have been working with them on various task throught the past year." 
+                content="Primitive Tribal Craft are a bohemian clothes retailer. I have been working with them on various task throughout the past year. During this time we have seen an increase of 45% in total sales." 
                 theme="Alpha Icon"
                 tasks={["Bespoke design and build Contact Us page", "Speed Optimisation (38% improvement)", "Bespoke Announcement Bar", "Image Optimisation", "Mailchimp Intergration and setup"]}
            />

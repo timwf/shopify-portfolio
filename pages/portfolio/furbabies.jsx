@@ -23,7 +23,7 @@ const Furbabies = (props) => {
                 image="/furbabies-gif.gif"
                 title=""
                 titleLogo="/furbabies-black.png"
-                content="Kates Furbabies are a dog walking service. I designed and built this minimal modern web app from scrath"
+                content="Kates Furbabies is a dog walking service. They wanted a basic brochure style website but wanted the design to be unique. I designed and built this minimal modern web app from scratch."
                 theme="N/A"
                 tasks={["Bespoke UX/UI full design", "Mobile Responsive design", "PHP Contact Page", "SEO optimised", "Social Media Intergration"]}
            />

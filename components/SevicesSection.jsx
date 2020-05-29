@@ -31,7 +31,7 @@ const ServicesSection = () => {
             <ServicesCard 
                 image={"/theme-changes-services.png"} 
                 header="Custom Themes and Changes"
-                content="Need a new customizable section? Not happy with your navigation.  Want to stand out and create a whole new design? "
+                content="Need a new customized section? Not happy with your navigation. Want to stand out and create a whole new design? Contact me now."
                 />
             <ServicesCard 
                 image={"/starter-shop-service.png"}
@@ -41,7 +41,7 @@ const ServicesSection = () => {
             <ServicesCard 
                 image={"/seo-op-service.png"}
                 header="SEO Optimisation"
-                content="SEO is vital for getting clients to tour store.  I use the latest tech and bblsad asvjn adf jnf jn dfjnda jnada."
+                content="SEO is vital for getting clients to your store. I use the latest technology and tools to drive organic traffic and increase conversions."
             />
         </animated.div>
     )

@@ -7,16 +7,36 @@ import Navbar from '../components/Navbar'
 import WorkSection from '../components/WorkSection'
 import ReviewsSection from '../components/ReviewsSection'
 import Footer from '../components/Footer.jsx'
+import ReactGA from "react-ga";
+import {useEffect} from 'react'
 
 
 
 
-const Index = () => (
+const Index = () => {
+
+    useEffect(() => {
+        ReactGA.initialize(`
+       
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140228069-7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-140228069-7');
+</script>`
+);
+
+    }, [])
+    
+    return (
     <>
      <Navbar />
    <Layout>
         <Head>
             <title>Shopify Partner | Developer | Designer - Home Page</title>
+            
         </Head>
         <HeroSection />
     </Layout>
@@ -33,5 +53,5 @@ const Index = () => (
     <Footer />
     </>
 );
-
+    }
 export default Index

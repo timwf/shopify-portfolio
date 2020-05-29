@@ -21,7 +21,7 @@ const SamualSmith = (props) => {
                 image="/sam-gif.gif"
                 title=""
                 titleLogo="/sam-black.png"
-                content="Samual Smith wanted to stand out with something special - I designed and built this unique Landing Page paired with Hero anaimation and Shopify Admin customisable sections"
+                content="Samual Smith wanted to stand out with something special - I designed and built this unique Landing Page paired with Hero animation and Shopify Admin customizable sections."
                 theme="Customised Debut Theme"
                 tasks={["Bespoke design and build Landing Page", "Shopify Admin editable sections", "Unique animated design and build Hero Section", "Logo re-design", "Bespoke Product Slider"]}
            />
