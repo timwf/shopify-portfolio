@@ -7,7 +7,8 @@ const Navbar = () => {
     const [scroll, setScroll] = useState(false)
     const [width, setWidth] = useState()
     const [mobilopen, setMobilopen] = useState(false)
-    console.log(width);
+    const [contactOpen, setContactOpen] = useState(false)
+    
     
  
     const getPosition = () => {
@@ -31,6 +32,7 @@ const Navbar = () => {
 
     if (width > 1000) {
         return (
+            <>
             <div  className={scroll ? 'nav white' : 'nav'} >
             <div className='logo-container'>
                 <Link href="/"><a><img src="/logo.png"/></a></Link>
@@ -59,9 +61,12 @@ const Navbar = () => {
                 <p className="nav-contact"><Link href="/portfolio"><a>Contact Me</a></Link></p>            
             </div> 
         </div> 
+
+
+        </>
         )
     } else return ( 
-        
+    <>
     <div  className={scroll ? 'mobile-nav white' : 'mobile-nav'} >
         <div className="mobile-menu-toggle">
             <img src="/hamburger.png" onClick={() => setMobilopen(true)}></img>
@@ -76,8 +81,8 @@ const Navbar = () => {
                         <div>
                     <Link href="/"><h1>home</h1></Link>
                     <Link href="/services"><h1>services</h1></Link>
-                    <Link href="/portfolio"><h1>portfolio</h1></Link>
-                    <Link href="/contact"><h1>contact</h1></Link>
+                    <Link href="/contact"><h1>portfolio</h1></Link>
+                    <div onClick={() => setContactOpen(true)} ><h1>contact</h1></div>
                         </div>
 
                     </div>
@@ -88,6 +93,31 @@ const Navbar = () => {
             <Link href="/"><a><img src="/logo.png"/></a></Link>
         </div>
     </div> 
+   
+    <div onClick={() => setContactOpen(false)} 
+    className={contactOpen ? "active-contact-wrapper pop-up-contact-wrapper" : "pop-up-contact-wrapper"}
+    >
+        <div className={contactOpen ? "active-contact-container pop-up-contact-container" : "pop-up-contact-container"}>
+        <div className="mob-contact-inner">
+            <h1 className="mob-contact-contact">CONTACT</h1>
+            <h1 className="mob-contact-me">ME</h1>
+            <h1 className="mob-contact-now">NOW</h1>
+            <div className="mob-contact-icons">
+                <img src="contact-mail.png"/>
+                <img src="contact-whatsapp.png"/>
+                <img src="contact-messenger.png"/>
+                <img src="contact-skype.png"/>
+                <img src="contact-linkedin.png"/>
+                <img src="contact-github.png"/>
+                <img src="contact-phone.png"/>
+                <img src="contact-twitter.png"/>
+
+            </div>
+        </div>
+        </div>
+    </div>
+  
+    </>
      ) };
 
 export default Navbar
