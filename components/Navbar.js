@@ -81,7 +81,7 @@ const Navbar = () => {
                         <div>
                     <Link href="/"><h1>home</h1></Link>
                     <Link href="/services"><h1>services</h1></Link>
-                    <Link href="/contact"><h1>portfolio</h1></Link>
+                    <Link href="/portfolio"><h1>portfolio</h1></Link>
                     <div onClick={() => setContactOpen(true)} ><h1>contact</h1></div>
                         </div>
 
