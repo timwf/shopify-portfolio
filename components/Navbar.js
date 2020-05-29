@@ -103,14 +103,14 @@ const Navbar = () => {
             <h1 className="mob-contact-me">ME</h1>
             <h1 className="mob-contact-now">NOW</h1>
             <div className="mob-contact-icons">
-                <img src="contact-mail.png"/>
-                <img src="contact-whatsapp.png"/>
-                <img src="contact-messenger.png"/>
-                <img src="contact-skype.png"/>
-                <img src="contact-linkedin.png"/>
-                <img src="contact-github.png"/>
-                <img src="contact-phone.png"/>
-                <img src="contact-twitter.png"/>
+                <img src="/contact-mail.png"/>
+                <img src="/contact-whatsapp.png"/>
+                <img src="/contact-messenger.png"/>
+                <img src="/contact-skype.png"/>
+                <img src="/contact-linkedin.png"/>
+                <img src="/contact-github.png"/>
+                <img src="/contact-phone.png"/>
+                <img src="/contact-twitter.png"/>
 
             </div>
         </div>
