@@ -34,8 +34,7 @@ const HeroSection = () => {
                 <animated.h3 style={animatedStyle} className="hero-sub"><span className="shopify-text">Shopify </span> | Partner | Developer | Designer</animated.h3>
             </div>
 
-            <animated.p style={animatedStyleTwo} className="tim-blurb"><p className="blurb-inner">Hi, I'm Tim - a Bangkok based Shopify devoloper and designer. 
-            I have expierience in theme development including custom design and app development. Contact me now for a free consultation!
+            <animated.p style={animatedStyleTwo} className="tim-blurb"><p className="blurb-inner">Hi, I'm Tim - a Bangkok based Shopify developer and designer. Expert in all things Shopify. Bespoke themes and sections, custom design and app development.  Contact me now for a free consultation.
           
                    </p>    
             </animated.p>
@@ -49,7 +48,7 @@ const HeroSection = () => {
         <div className="hero-social">
         <a href="https://github.com/timwf"><img src="/github-grey.png" alt=""/></a>
         <a href="https://www.linkedin.com/in/timothy-williams-fowler-6a04a9176/"><img src="/linkedin-grey.png" alt=""/></a>
-        <img src="/twitter-grey.png" alt=""/>
+        <a href="https://twitter.com/TimWilliamsFow1"><img src="/twitter-grey.png" alt=""/></a>
         <a href="https://codepen.io/timwf"><img src="/codepen-grey.png" alt=""/></a> 
 
         </div>

@@ -19,6 +19,7 @@ const NordicFurnitureDesign = (props) => {
             </Layout>
             <PortfolioSection 
                 image="/nordic-gif.gif"
+                imageURL="https://nordic-furniture-design.myshopify.com/collections/furniture"
                 title="Nordic Furniture Design"
                 titleLogo="/nordic-black.png"
                 content="Nordic Furniture Design wanted a sleek new collection page layout and bespoke Mega Menu. They are using the free Debut theme and wanted an upgrade. We were able to implement a custom built mega menu and collection pages without upgrading allowing for a real custom professional feel. "

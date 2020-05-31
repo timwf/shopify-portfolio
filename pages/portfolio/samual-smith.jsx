@@ -19,6 +19,7 @@ const SamualSmith = (props) => {
             </Layout>
             <PortfolioSection 
                 image="/sam-gif.gif"
+                imageURL="https://samual-smith.myshopify.com/pages/landing-page"
                 title=""
                 titleLogo="/sam-black.png"
                 content="Samual Smith wanted to stand out with something special - I designed and built this unique Landing Page paired with Hero animation and Shopify Admin customizable sections."

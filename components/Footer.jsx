@@ -11,8 +11,8 @@ const Footer = () => {
         <Layout>
             <div className="footer-container">
                 <div className="footer-first footer-section"> 
-                <p>info@timothy-willams-fowler.com</p>  
-                <img src="/big-envelope.png" alt=""/>                 
+                <a href="mailto:timothy-williams-fowler@protonmail.com"><p>timothy-williams-fowler@protonmail.com</p></a>  
+                <a href="mailto:timothy-williams-fowler@protonmail.com"><img src="/big-envelope.png" alt=""/></a>                 
                 </div>
                 <div className="footer-second footer-section"> 
                 <Link href="/"><h2>home</h2></Link>
@@ -23,10 +23,11 @@ const Footer = () => {
                 <div className="footer-third footer-section">
                 <p>terms and conditions</p>   
                 <div className="footer-social">
-                <img src="/linkedin-white.png" alt=""/>   
-                <img src="/github-white.png" alt=""/> 
-                <img src="/codepen-white.png" alt=""/>   
-                <img src="/instagram-white.png" alt=""/>                    
+                <a href="https://www.linkedin.com/in/timothy-williams-fowler-6a04a9176/"><img src="/linkedin-white.png" alt=""/></a>   
+                <a href="https://github.com/timwf"><img src="/github-white.png" alt=""/> </a>
+                <a href="https://codepen.io/timwf"><img src="/codepen-white.png" alt=""/></a> 
+                <a href="https://www.instagram.com/tim_fowler/  "><img src="/instagram-white.png" alt=""/></a>
+                             
                 </div>
                 </div>
 
@@ -43,15 +44,14 @@ const Footer = () => {
             <h1 className="mob-contact-me">ME</h1>
             <h1 className="mob-contact-now">NOW</h1>
             <div className="mob-contact-icons">
-                <img src="/contact-mail.png"/>
-                <img src="/contact-whatsapp.png"/>
-                <img src="/contact-messenger.png"/>
-                <img src="/contact-skype.png"/>
-                <a href="https://www.linkedin.com/in/timothy-williams-fowler-6a04a9176/" ><img src="/contact-linkedin.png"/></a>
-                <img src="/contact-github.png"/>
-                <img src="/contact-phone.png"/>
-                <img src="/contact-twitter.png"/>
-
+            <a href="mailto:timothy-williams-fowler@protonmail.com"><img src="/contact-mail.png"/></a>
+            <a href="https://wa.me/447342087132"><img src="/contact-whatsapp.png"/></a>               
+            <a href="http://m.me/tim.williamsfowler" target="_blank"><img src="/contact-messenger.png"/></a>
+            <a href="skype:live.timwfowler0?chat"><img src="/contact-skype.png"/></a>
+            <a href="https://www.linkedin.com/in/timothy-williams-fowler-6a04a9176/" ><img src="/contact-linkedin.png"/></a>
+            <a href="https://github.com/timwf"><img src="/contact-github.png"/></a>
+            <a href="tel:+66-806-468-608"><img src="/contact-phone.png"/></a>
+            <a href="https://twitter.com/TimWilliamsFow1"><img src="/contact-twitter.png"/></a>
             </div>
         </div>
         </div>

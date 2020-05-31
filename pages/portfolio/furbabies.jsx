@@ -21,6 +21,7 @@ const Furbabies = (props) => {
             </Layout>
             <PortfolioSection 
                 image="/furbabies-gif.gif"
+                imageURL = "https://timwf.github.io/Furbabies-final/"
                 title=""
                 titleLogo="/furbabies-black.png"
                 content="Kates Furbabies is a dog walking service. They wanted a basic brochure style website but wanted the design to be unique. I designed and built this minimal modern web app from scratch."

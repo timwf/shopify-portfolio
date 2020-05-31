@@ -658,6 +658,10 @@ background-color: #F5F5F5;
       position: absolute;
       bottom: 60px;
     }
+    a{
+      color: white;
+      text-decoration: none;
+    }
   }
 }
 
@@ -771,11 +775,11 @@ background-color: #F5F5F5;
   background-color: #0000009e;
   z-index: 9999;
   position: fixed;
-  margin-top: -100vh;
+  display: none;
 }
 
 .active-contact-wrapper-footer{
-  
+  display: block;
   margin-top: 0; 
   top: 0;
 }
@@ -947,6 +951,7 @@ display: none;
         position: relative;
         bottom: 0;
       }
+
   }
   .footer-social{
     position: relative;

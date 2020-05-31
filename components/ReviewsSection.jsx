@@ -14,7 +14,7 @@ const ReviewsSection = () => (
                 name="Tillie Giles"
                 content="Very prompt & quick to responding to my request and new exactly what i was after. Completed the job within the hour, excellent service!"
             />
-            <ReviewsCard 
+            {/* <ReviewsCard 
                 image="/PaulinaWilkins.png"
                 name="Paulina Wilkins"
                 content="Tim was great to work with. He completed what we asked for on time and at the price quoted. We are very happy with our website."     
@@ -28,11 +28,11 @@ const ReviewsSection = () => (
                 image="/NeilRivas.png"
                 name="Neil Rivas"
                 content="and typesetting industry. Lorem Ipsum has been the "     
-            />
+            /> */}
             <ReviewsCard 
                 image="/MitchelLutz.png"
                 name="Mitchel Lutz"
-                content="and typesetting industry. Lorem Ipsum has been the "     
+                content="Tim was great to work with. He completed what we asked for on time and at the price quoted. We are very happy with our shop."     
             />
         </div>
     </Layout>

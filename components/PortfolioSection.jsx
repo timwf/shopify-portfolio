@@ -7,15 +7,16 @@ const PortfolioSection = (props) => {
         <Layout>
             <div className="portfolio-section-container">
             <div className="portfolio-section-image-container">
-                <Img
+            <a href={props.imageURL} > <Img
                     src={props.image}
                     loader={<img src="/image-loader.gif"/>}
                 />
+                </a>
                 
             </div>
             <div className="portfolio-section-content-container">
                 <div className="portfolio-section-header">
-                    <img src={props.titleLogo} alt=""/>
+                    <a href={props.imageURL}><img src={props.titleLogo} alt=""/></a>
                     <h1>{props.title}</h1>
                 </div>
                 <div className="portfolio-section-content">
