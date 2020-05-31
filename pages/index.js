@@ -35,7 +35,7 @@ const Index = () => {
      <Navbar />
    <Layout>
         <Head>
-            <title>Shopify Partner | Developer | Designer - Home Page</title>
+            <title>Timothy Williams Fowler. Shopify Partner | Developer | Designer</title>
             
         </Head>
         <HeroSection />

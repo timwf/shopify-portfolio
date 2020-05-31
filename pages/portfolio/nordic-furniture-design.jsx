@@ -4,6 +4,7 @@ import PortfolioSection from "../../components/PortfolioSection"
 import Layout from '../../components/Layout'
 import Footer from '../../components/Footer.jsx'
 import WorkSection from '../../components/WorkSection'
+import Head from 'next/head'
 
 const NordicFurnitureDesign = (props) => {
     return(
@@ -11,6 +12,10 @@ const NordicFurnitureDesign = (props) => {
             <Navbar/>
             <div className="nav-margin-top"></div>
             <Layout>
+            <Head>
+            <title>Timothy Williams Fowler. Shopify Partner | Developer | Designer - Nordic Furniture Design</title>
+            
+        </Head>
             <div className="breadcrumbs">
                 <Link href="/"><img src="/home-icon.png" alt=""/></Link>
                 <Link href="/portfolio"><p>> Portfolio ></p></Link>
