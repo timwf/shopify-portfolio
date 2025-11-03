@@ -41,7 +41,7 @@ const HeroSection = () => {
             </div>
         </div>
         <div className="hero-image-container">
-        <animated.img className="me-image"style={photoSlideIn} src="/hero-photo.png"/>
+        <animated.img className="me-image"style={photoSlideIn} src="/kelly-sikkema.png"/>
         </div>
 
         </div>
