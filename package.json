@@ -17,6 +17,9 @@
     "react-spring": "^9.0.0-rc.3"
   },
   "devDependencies": {},
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
