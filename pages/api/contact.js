@@ -12,20 +12,36 @@ export default async function handler(req, res) {
     return res.status(400).json({ message: 'All fields are required' })
   }
 
-  try {
-    // Create transporter using Gmail SMTP
-    // Note: You'll need to set up environment variables for this to work
-    const transporter = nodemailer.createTransporter({
-      service: 'gmail',
-      auth: {
-        user: process.env.GMAIL_USER, // Your Gmail address
-        pass: process.env.GMAIL_APP_PASSWORD, // Your Gmail App Password
-      },
+  // Check environment variables
+  if (!process.env.GMAIL_USER || !process.env.GMAIL_APP_PASSWORD) {
+    console.error('Missing environment variables:', {
+      GMAIL_USER: !!process.env.GMAIL_USER,
+      GMAIL_APP_PASSWORD: !!process.env.GMAIL_APP_PASSWORD
     })
+    return res.status(500).json({ message: 'Server configuration error' })
+  }
+
+  try {
+    // Create transporter using Google Workspace/Gmail SMTP
+    const transporter = nodemailer.createTransporter({
+      host: 'smtp.gmail.com',
+      port: 587,
+      secure: false, // true for 465, false for other ports
+      auth: {
+        user: process.env.GMAIL_USER,
+        pass: process.env.GMAIL_APP_PASSWORD,
+      },
+      tls: {
+        rejectUnauthorized: false
+      }
+    })
+
+    // Verify transporter configuration
+    await transporter.verify()
 
     // Email configuration
     const mailOptions = {
-      from: process.env.GMAIL_USER,
+      from: `"Contact Form" <${process.env.GMAIL_USER}>`,
       to: 'tim@cartmasters.co.uk',
       subject: `New Contact Form Submission from ${name}`,
       html: `
@@ -41,11 +57,19 @@ export default async function handler(req, res) {
     }
 
     // Send email
-    await transporter.sendMail(mailOptions)
+    const info = await transporter.sendMail(mailOptions)
+    console.log('Email sent successfully:', info.messageId)
 
     res.status(200).json({ message: 'Email sent successfully' })
   } catch (error) {
-    console.error('Error sending email:', error)
-    res.status(500).json({ message: 'Failed to send email' })
+    console.error('Detailed error sending email:', {
+      message: error.message,
+      code: error.code,
+      command: error.command
+    })
+    res.status(500).json({ 
+      message: 'Failed to send email',
+      error: process.env.NODE_ENV === 'development' ? error.message : undefined
+    })
   }
 }
