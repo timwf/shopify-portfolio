@@ -12,37 +12,34 @@ const Index = () => {
         setSubmitStatus('')
     }
 
-    const encode = (data) => {
-        return Object.keys(data)
-            .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-            .join("&")
-    }
-
     const handleSubmit = async (e) => {
         e.preventDefault()
         setIsSubmitting(true)
         
         try {
             const formData = new FormData(e.target)
-            const data = {}
-            for (let [key, value] of formData.entries()) {
-                data[key] = value
+            const data = {
+                name: formData.get('name'),
+                email: formData.get('email'),
+                message: formData.get('message')
             }
             
-            await fetch('/', {
+            const response = await fetch('/api/contact', {
                 method: 'POST',
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: encode({
-                    'form-name': 'maintenance-contact',
-                    ...data
-                })
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
             })
             
-            setSubmitStatus('success')
-            setTimeout(() => {
-                closeModal()
+            if (response.ok) {
+                setSubmitStatus('success')
+                setTimeout(() => {
+                    closeModal()
+                    setIsSubmitting(false)
+                }, 2000)
+            } else {
+                setSubmitStatus('error')
                 setIsSubmitting(false)
-            }, 2000)
+            }
         } catch (error) {
             setSubmitStatus('error')
             setIsSubmitting(false)
@@ -102,15 +99,9 @@ const Index = () => {
                             </div>
                         ) : (
                             <form 
-                                name="maintenance-contact" 
-                                method="POST" 
-                                data-netlify="true"
-                                data-netlify-honeypot="bot-field"
                                 onSubmit={handleSubmit}
                                 className="contact-form"
                             >
-                                <input type="hidden" name="form-name" value="maintenance-contact" />
-                                <input type="hidden" name="bot-field" />
                                 
                                 <div className="form-group">
                                     <label htmlFor="name">Name</label>
