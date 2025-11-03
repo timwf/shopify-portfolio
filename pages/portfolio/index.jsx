@@ -29,7 +29,7 @@ const Portfolio = (props) => {
         </Head>
         <div className="breadcrumbs">
                 <Link href="/"><img src="/home-icon.png" alt=""/></Link>
-                <p> > Portfolio</p>
+                <p> {'>'} Portfolio</p>
             </div>
         </Layout>
         <WorkSection />

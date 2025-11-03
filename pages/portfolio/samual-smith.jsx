@@ -13,7 +13,7 @@ const SamualSmith = (props) => {
             <Layout>
             <div className="breadcrumbs">
                 <Link href="/"><img src="/home-icon.png" alt=""/></Link>
-                <Link href="/portfolio"><p>> Portfolio ></p></Link>
+                <Link href="/portfolio"><p>{'>'} Portfolio {'>'}</p></Link>
                 <p>Samual Smith</p>
             </div>
             </Layout>

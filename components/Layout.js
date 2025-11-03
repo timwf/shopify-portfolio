@@ -1,8 +1,5 @@
 
 import Head from 'next/head'
-import Router from "next/router";
-import withGA from 'next-ga'
-import '../pages/styles.scss'
 
 
 
@@ -33,4 +30,4 @@ const Layout = (props) => (
     </div>
 )
 
-export default withGA("UA-140228069-7", Router)(Layout)
+export default Layout

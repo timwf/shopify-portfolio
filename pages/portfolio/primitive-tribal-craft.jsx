@@ -13,7 +13,7 @@ const PrimitiveTrible = (props) => {
             <Layout>
             <div className="breadcrumbs">
                 <Link href="/"><img src="/home.png" alt=""/></Link>
-                <Link href="/portfolio"><p>> Portfolio ></p></Link>
+                <Link href="/portfolio"><p>{'>'} Portfolio {'>'}</p></Link>
                 <p>Primitive Tribal Craft</p>
             </div>
             </Layout>

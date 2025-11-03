@@ -1,42 +1,91 @@
 {
-  "devFiles": [
-    "static/runtime/react-refresh.js",
-    "static/development/dll/dll_f9de5cbc314a1e41f91e.js",
-    "static/development/dll/dll_f9de5cbc314a1e41f91e.js.map"
+  "polyfillFiles": [
+    "static/chunks/polyfills-c67a75d1b6f99dc8.js"
   ],
+  "devFiles": [],
+  "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/MgSwxSWRkNMDxtS1coYBR/_buildManifest.js",
+    "static/MgSwxSWRkNMDxtS1coYBR/_ssgManifest.js"
   ],
+  "rootMainFiles": [],
   "pages": {
     "/": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
+      "static/chunks/webpack-efdab446b2c4fcf1.js",
+      "static/chunks/framework-fae63b21a27d6472.js",
+      "static/chunks/main-5232346dfb644e31.js",
+      "static/chunks/330-dcc35749b17b5616.js",
+      "static/chunks/542-41d3d24264e0fc98.js",
+      "static/chunks/231-b437de3425526176.js",
+      "static/chunks/pages/index-30aca0ea80cc48d2.js"
     ],
     "/_app": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/chunks/webpack-efdab446b2c4fcf1.js",
+      "static/chunks/framework-fae63b21a27d6472.js",
+      "static/chunks/main-5232346dfb644e31.js",
+      "static/css/68791de1dbfbc689.css",
+      "static/chunks/pages/_app-0f17f160da8777c0.js"
     ],
     "/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/chunks/webpack-efdab446b2c4fcf1.js",
+      "static/chunks/framework-fae63b21a27d6472.js",
+      "static/chunks/main-5232346dfb644e31.js",
+      "static/chunks/pages/_error-ee5b5fb91d29d86f.js"
     ],
-    "/_polyfills": [
-      "static/runtime/polyfills.js"
+    "/about": [
+      "static/chunks/webpack-efdab446b2c4fcf1.js",
+      "static/chunks/framework-fae63b21a27d6472.js",
+      "static/chunks/main-5232346dfb644e31.js",
+      "static/chunks/pages/about-cbf11d2c91f361d4.js"
     ],
-    "/index": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
+    "/portfolio": [
+      "static/chunks/webpack-efdab446b2c4fcf1.js",
+      "static/chunks/framework-fae63b21a27d6472.js",
+      "static/chunks/main-5232346dfb644e31.js",
+      "static/chunks/330-dcc35749b17b5616.js",
+      "static/chunks/231-b437de3425526176.js",
+      "static/chunks/pages/portfolio-367204aeca6b6776.js"
+    ],
+    "/portfolio/furbabies": [
+      "static/chunks/webpack-efdab446b2c4fcf1.js",
+      "static/chunks/framework-fae63b21a27d6472.js",
+      "static/chunks/main-5232346dfb644e31.js",
+      "static/chunks/330-dcc35749b17b5616.js",
+      "static/chunks/231-b437de3425526176.js",
+      "static/chunks/pages/portfolio/furbabies-3a18508c4dfce3fe.js"
     ],
     "/portfolio/nordic-furniture-design": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
+      "static/chunks/webpack-efdab446b2c4fcf1.js",
+      "static/chunks/framework-fae63b21a27d6472.js",
+      "static/chunks/main-5232346dfb644e31.js",
+      "static/chunks/330-dcc35749b17b5616.js",
+      "static/chunks/231-b437de3425526176.js",
+      "static/chunks/pages/portfolio/nordic-furniture-design-fbea7b72b990c628.js"
+    ],
+    "/portfolio/primitive-tribal-craft": [
+      "static/chunks/webpack-efdab446b2c4fcf1.js",
+      "static/chunks/framework-fae63b21a27d6472.js",
+      "static/chunks/main-5232346dfb644e31.js",
+      "static/chunks/330-dcc35749b17b5616.js",
+      "static/chunks/231-b437de3425526176.js",
+      "static/chunks/pages/portfolio/primitive-tribal-craft-f64c9abc14a70123.js"
+    ],
+    "/portfolio/samual-smith": [
+      "static/chunks/webpack-efdab446b2c4fcf1.js",
+      "static/chunks/framework-fae63b21a27d6472.js",
+      "static/chunks/main-5232346dfb644e31.js",
+      "static/chunks/330-dcc35749b17b5616.js",
+      "static/chunks/231-b437de3425526176.js",
+      "static/chunks/pages/portfolio/samual-smith-5ebd649acec94732.js"
+    ],
+    "/services": [
+      "static/chunks/webpack-efdab446b2c4fcf1.js",
+      "static/chunks/framework-fae63b21a27d6472.js",
+      "static/chunks/main-5232346dfb644e31.js",
+      "static/chunks/330-dcc35749b17b5616.js",
+      "static/chunks/231-b437de3425526176.js",
+      "static/chunks/pages/services-60dd80e2346f55d7.js"
     ]
-  }
+  },
+  "ampFirstPages": []
 }

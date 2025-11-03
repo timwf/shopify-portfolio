@@ -31,7 +31,7 @@ const ServicesPage = () => {
         </Head>
         <div className="breadcrumbs">
                 <Link href="/"><img src="/home-icon.png" alt=""/></Link>
-                <p> > Services</p>
+                <p> {'>'} Services</p>
             </div>
             <ServicesSection />
             <div className="nav-margin-top"></div>
