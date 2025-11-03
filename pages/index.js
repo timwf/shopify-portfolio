@@ -12,16 +12,30 @@ const Index = () => {
         setSubmitStatus('')
     }
 
+    const encode = (data) => {
+        return Object.keys(data)
+            .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+            .join("&")
+    }
+
     const handleSubmit = async (e) => {
         e.preventDefault()
         setIsSubmitting(true)
         
         try {
             const formData = new FormData(e.target)
+            const data = {}
+            for (let [key, value] of formData.entries()) {
+                data[key] = value
+            }
+            
             await fetch('/', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: new URLSearchParams(formData).toString()
+                body: encode({
+                    'form-name': 'maintenance-contact',
+                    ...data
+                })
             })
             
             setSubmitStatus('success')
