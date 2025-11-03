@@ -1,1 +1,6 @@
-{"/_app":"pages/_app.js","/about":"pages/about.html","/":"pages/index.html","/portfolio/nordic-furniture-design":"pages/portfolio/nordic-furniture-design.html","/_error":"pages/_error.js","/portfolio/primitive-tribal-craft":"pages/portfolio/primitive-tribal-craft.html","/portfolio":"pages/portfolio.html","/portfolio/furbabies":"pages/portfolio/furbabies.html","/portfolio/samual-smith":"pages/portfolio/samual-smith.html","/services":"pages/services.html","/_document":"pages/_document.js","/404":"pages/404.html"}
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js"
+}

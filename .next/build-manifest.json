@@ -1,90 +1,31 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills-c67a75d1b6f99dc8.js"
+    "static/chunks/polyfills.js"
   ],
-  "devFiles": [],
+  "devFiles": [
+    "static/chunks/react-refresh.js"
+  ],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/MgSwxSWRkNMDxtS1coYBR/_buildManifest.js",
-    "static/MgSwxSWRkNMDxtS1coYBR/_ssgManifest.js"
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
     "/": [
-      "static/chunks/webpack-efdab446b2c4fcf1.js",
-      "static/chunks/framework-fae63b21a27d6472.js",
-      "static/chunks/main-5232346dfb644e31.js",
-      "static/chunks/330-dcc35749b17b5616.js",
-      "static/chunks/542-41d3d24264e0fc98.js",
-      "static/chunks/231-b437de3425526176.js",
-      "static/chunks/pages/index-30aca0ea80cc48d2.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
     ],
     "/_app": [
-      "static/chunks/webpack-efdab446b2c4fcf1.js",
-      "static/chunks/framework-fae63b21a27d6472.js",
-      "static/chunks/main-5232346dfb644e31.js",
-      "static/css/68791de1dbfbc689.css",
-      "static/chunks/pages/_app-0f17f160da8777c0.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_app.js"
     ],
     "/_error": [
-      "static/chunks/webpack-efdab446b2c4fcf1.js",
-      "static/chunks/framework-fae63b21a27d6472.js",
-      "static/chunks/main-5232346dfb644e31.js",
-      "static/chunks/pages/_error-ee5b5fb91d29d86f.js"
-    ],
-    "/about": [
-      "static/chunks/webpack-efdab446b2c4fcf1.js",
-      "static/chunks/framework-fae63b21a27d6472.js",
-      "static/chunks/main-5232346dfb644e31.js",
-      "static/chunks/pages/about-cbf11d2c91f361d4.js"
-    ],
-    "/portfolio": [
-      "static/chunks/webpack-efdab446b2c4fcf1.js",
-      "static/chunks/framework-fae63b21a27d6472.js",
-      "static/chunks/main-5232346dfb644e31.js",
-      "static/chunks/330-dcc35749b17b5616.js",
-      "static/chunks/231-b437de3425526176.js",
-      "static/chunks/pages/portfolio-367204aeca6b6776.js"
-    ],
-    "/portfolio/furbabies": [
-      "static/chunks/webpack-efdab446b2c4fcf1.js",
-      "static/chunks/framework-fae63b21a27d6472.js",
-      "static/chunks/main-5232346dfb644e31.js",
-      "static/chunks/330-dcc35749b17b5616.js",
-      "static/chunks/231-b437de3425526176.js",
-      "static/chunks/pages/portfolio/furbabies-3a18508c4dfce3fe.js"
-    ],
-    "/portfolio/nordic-furniture-design": [
-      "static/chunks/webpack-efdab446b2c4fcf1.js",
-      "static/chunks/framework-fae63b21a27d6472.js",
-      "static/chunks/main-5232346dfb644e31.js",
-      "static/chunks/330-dcc35749b17b5616.js",
-      "static/chunks/231-b437de3425526176.js",
-      "static/chunks/pages/portfolio/nordic-furniture-design-fbea7b72b990c628.js"
-    ],
-    "/portfolio/primitive-tribal-craft": [
-      "static/chunks/webpack-efdab446b2c4fcf1.js",
-      "static/chunks/framework-fae63b21a27d6472.js",
-      "static/chunks/main-5232346dfb644e31.js",
-      "static/chunks/330-dcc35749b17b5616.js",
-      "static/chunks/231-b437de3425526176.js",
-      "static/chunks/pages/portfolio/primitive-tribal-craft-f64c9abc14a70123.js"
-    ],
-    "/portfolio/samual-smith": [
-      "static/chunks/webpack-efdab446b2c4fcf1.js",
-      "static/chunks/framework-fae63b21a27d6472.js",
-      "static/chunks/main-5232346dfb644e31.js",
-      "static/chunks/330-dcc35749b17b5616.js",
-      "static/chunks/231-b437de3425526176.js",
-      "static/chunks/pages/portfolio/samual-smith-5ebd649acec94732.js"
-    ],
-    "/services": [
-      "static/chunks/webpack-efdab446b2c4fcf1.js",
-      "static/chunks/framework-fae63b21a27d6472.js",
-      "static/chunks/main-5232346dfb644e31.js",
-      "static/chunks/330-dcc35749b17b5616.js",
-      "static/chunks/231-b437de3425526176.js",
-      "static/chunks/pages/services-60dd80e2346f55d7.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_error.js"
     ]
   },
   "ampFirstPages": []
